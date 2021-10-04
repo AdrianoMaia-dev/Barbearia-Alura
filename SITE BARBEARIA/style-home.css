@@ -1,90 +1,48 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+#banner {
+	width:100%;
 }
-/*CSS do Cabeçalho*/
-header {
-    background: #bbbbbb;
-    padding: 20px 0;
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-nav ul {
-    display: inline;
-    margin: 0 0 0 0;
-}
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 22px;
-}
-nav a:hover {
-    color: #c78c19;
-    text-decoration: underline;
-}
-/*CSS do Conteudo Principal*/
-.banner {
-    width: 100%;
-}
+
 .titulo-principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
+	padding-left: 20px;
 }
-.principal p {
-    margin: 0 0 1em;
+
+.titulo-centralizado {
+	text-align: center
 }
-.principal strong {
-    font-weight: bold;
+
+p {
+	text-align: center;
 }
-.principal em {
-    font-style: italic;
-}
-.utensilios {
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
-}
+
 #missao {
-    font-size: 20px;
+	font-size: 20px
 }
-.itens{
-    font-style: italic;
+
+em strong {
+	color: #FF0000;
 }
-.beneficios{
-    background-color: #ffffff;
-    padding: 20px;
+
+.itens {
+	font-style: italic
 }
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
 ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
 }
+
 .imagembeneficios {
-    width: 50%;
-}
-/*CSS do Rodapé */
-footer {
-    background-image: url("bg.jpg");
-    text-align: center;
-    padding: 40px 0;
-}
-.copyright {
-    color: #ffffff;
-    font-size: 13px;
+	width: 50%;
 }
